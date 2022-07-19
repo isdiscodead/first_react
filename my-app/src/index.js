@@ -8,6 +8,10 @@ import Clock from './chapter_04/Clock';
 import CommentList from './chapter_05/CommentList';
 import NotificationList from './chapter_06/NotificationList';
 import Accommodate from './chapter_07/Accommodate';
+import ConfirmButtonClass from './chapter_08/ConfirmButtonClass';
+import ConfirmButtonFunc from './chapter_08/ConfirmButtonFunc';
+import Toolbar from './chapter_09/Toolbar';
+import LandingPage from './chapter_09/LandingPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -21,13 +25,14 @@ setInterval( () => { // 시계 동작을 위해 1초마다 재 렌더링
     </React.StrictMode>
   );
 }, 1000)
+\
 
 */
 
 
 root.render(
   <React.StrictMode>
-    <Accommodate />
+    <LandingPage />
   </React.StrictMode>
 )
 
