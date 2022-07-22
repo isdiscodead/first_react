@@ -12,6 +12,8 @@ import ConfirmButtonClass from './chapter_08/ConfirmButtonClass';
 import ConfirmButtonFunc from './chapter_08/ConfirmButtonFunc';
 import Toolbar from './chapter_09/Toolbar';
 import LandingPage from './chapter_09/LandingPage';
+import SignUp from './chapter_11/SignUp';
+import Calculator from './chapter_12/Calculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -32,7 +34,7 @@ setInterval( () => { // 시계 동작을 위해 1초마다 재 렌더링
 
 root.render(
   <React.StrictMode>
-    <LandingPage />
+    <Calculator />
   </React.StrictMode>
 )
 
