@@ -29,6 +29,7 @@ function tryConvert(temperature, convert) {
 }
 
 function Calculator() {
+    // 상위 컴포넌트에 props 존재
     const [temperature, setTemperature] = useState("");
     const [scale, setScale] = useState("c");
 
