@@ -34,7 +34,7 @@ setInterval( () => { // 시계 동작을 위해 1초마다 재 렌더링
 
 root.render(
   <React.StrictMode>
-    <Calculator />
+    <Card />
   </React.StrictMode>
 )
 
