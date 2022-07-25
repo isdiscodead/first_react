@@ -51,7 +51,7 @@ function PostWritePage(props) {
                 />
             </Container>
         </Wrapper>
-    )
+    );
 }
 
-export default PostWritePage
+export default PostWritePage;
